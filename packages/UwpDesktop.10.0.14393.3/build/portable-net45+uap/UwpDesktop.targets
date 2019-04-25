@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Reference Include="System.Runtime.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(MSBuildProgramFiles32)\Reference Assemblies\Microsoft\Framework\.NETCore\v4.5\System.Runtime.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.WindowsRuntime.UI.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(MSBuildProgramFiles32)\Reference Assemblies\Microsoft\Framework\.NETCore\v4.5\System.Runtime.WindowsRuntime.UI.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Windows">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\UnionMetadata\Facade\Windows.WinMD</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.CallsVoipContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Calls.CallsVoipContract\1.0.0.0\Windows.ApplicationModel.Calls.CallsVoipContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.SocialInfo.SocialInfoContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.SocialInfo.SocialInfoContract\1.0.0.0\Windows.ApplicationModel.SocialInfo.SocialInfoContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.DevicesLowLevelContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Devices.DevicesLowLevelContract\2.0.0.0\Windows.Devices.DevicesLowLevelContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Printers.PrintersContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Devices.Printers.PrintersContract\1.0.0.0\Windows.Devices.Printers.PrintersContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Foundation.FoundationContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Foundation.FoundationContract\2.0.0.0\Windows.Foundation.FoundationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Foundation.UniversalApiContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Foundation.UniversalApiContract\3.0.0.0\Windows.Foundation.UniversalApiContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Graphics.Printing3D.Printing3DContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Graphics.Printing3D.Printing3DContract\3.0.0.0\Windows.Graphics.Printing3D.Printing3DContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.Connectivity.WwanContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Networking.Connectivity.WwanContract\1.0.0.0\Windows.Networking.Connectivity.WwanContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.Store.StoreContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Services.Store.StoreContract\1.0.0.0\Windows.Services.Store.StoreContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.ProfileHardwareTokenContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.System.Profile.ProfileHardwareTokenContract\1.0.0.0\Windows.System.Profile.ProfileHardwareTokenContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.ProfileSharedModeContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.System.Profile.ProfileSharedModeContract\1.0.0.0\Windows.System.Profile.ProfileSharedModeContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.ViewManagement.ViewManagementViewScalingContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.UI.ViewManagement.ViewManagementViewScalingContract\1.0.0.0\Windows.UI.ViewManagement.ViewManagementViewScalingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.ActivatedEventsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Activation.ActivatedEventsContract\1.0.0.0\Windows.ApplicationModel.Activation.ActivatedEventsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.ActivationCameraSettingsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Activation.ActivationCameraSettingsContract\1.0.0.0\Windows.ApplicationModel.Activation.ActivationCameraSettingsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.ContactActivatedEventsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Activation.ContactActivatedEventsContract\1.0.0.0\Windows.ApplicationModel.Activation.ContactActivatedEventsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract\1.0.0.0\Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract\1.0.0.0\Windows.ApplicationModel.Background.BackgroundAlarmApplicationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.Background.CallsBackgroundContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract\1.0.0.0\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Calls.LockScreenCallContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Calls.LockScreenCallContract\1.0.0.0\Windows.ApplicationModel.Calls.LockScreenCallContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.FullTrustAppContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.FullTrustAppContract\1.0.0.0\Windows.ApplicationModel.FullTrustAppContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Preview.Notes.PreviewNotesContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Preview.Notes.PreviewNotesContract\1.0.0.0\Windows.ApplicationModel.Preview.Notes.PreviewNotesContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Resources.Management.ResourceIndexerContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Resources.Management.ResourceIndexerContract\1.0.0.0\Windows.ApplicationModel.Resources.Management.ResourceIndexerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Search.Core.SearchCoreContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Search.Core.SearchCoreContract\1.0.0.0\Windows.ApplicationModel.Search.Core.SearchCoreContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Search.SearchContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Search.SearchContract\1.0.0.0\Windows.ApplicationModel.Search.SearchContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.StartupTaskContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.StartupTaskContract\1.0.0.0\Windows.ApplicationModel.StartupTaskContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel.Wallet.WalletContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.ApplicationModel.Wallet.WalletContract\1.0.0.0\Windows.ApplicationModel.Wallet.WalletContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Custom.CustomDeviceContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Devices.Custom.CustomDeviceContract\1.0.0.0\Windows.Devices.Custom.CustomDeviceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Portable.PortableDeviceContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Devices.Portable.PortableDeviceContract\1.0.0.0\Windows.Devices.Portable.PortableDeviceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Printers.Extensions.ExtensionsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Devices.Printers.Extensions.ExtensionsContract\2.0.0.0\Windows.Devices.Printers.Extensions.ExtensionsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Scanners.ScannerDeviceContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Devices.Scanners.ScannerDeviceContract\1.0.0.0\Windows.Devices.Scanners.ScannerDeviceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Devices.Sms.LegacySmsApiContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Devices.Sms.LegacySmsApiContract\1.0.0.0\Windows.Devices.Sms.LegacySmsApiContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Gaming.Preview.GamesEnumerationContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Gaming.Preview.GamesEnumerationContract\1.0.0.0\Windows.Gaming.Preview.GamesEnumerationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract\1.0.0.0\Windows.Globalization.GlobalizationJapanesePhoneticAnalyzerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Management.Deployment.Preview.DeploymentPreviewContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Management.Deployment.Preview.DeploymentPreviewContract\1.0.0.0\Windows.Management.Deployment.Preview.DeploymentPreviewContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Management.Orchestration.OrchestrationContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Management.Orchestration.OrchestrationContract\1.0.0.0\Windows.Management.Orchestration.OrchestrationContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Management.Workplace.WorkplaceSettingsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Management.Workplace.WorkplaceSettingsContract\1.0.0.0\Windows.Management.Workplace.WorkplaceSettingsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.AppCaptureContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Media.Capture.AppCaptureContract\3.0.0.0\Windows.Media.Capture.AppCaptureContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Capture.CameraCaptureUIContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Media.Capture.CameraCaptureUIContract\1.0.0.0\Windows.Media.Capture.CameraCaptureUIContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Devices.CallControlContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Media.Devices.CallControlContract\1.0.0.0\Windows.Media.Devices.CallControlContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.MediaControlContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Media.MediaControlContract\1.0.0.0\Windows.Media.MediaControlContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Playlists.PlaylistsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Media.Playlists.PlaylistsContract\1.0.0.0\Windows.Media.Playlists.PlaylistsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Media.Protection.ProtectionRenewalContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Media.Protection.ProtectionRenewalContract\1.0.0.0\Windows.Media.Protection.ProtectionRenewalContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract\1.0.0.0\Windows.Networking.NetworkOperators.LegacyNetworkOperatorsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Networking.Sockets.ControlChannelTriggerContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Networking.Sockets.ControlChannelTriggerContract\2.0.0.0\Windows.Networking.Sockets.ControlChannelTriggerContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Perception.Automation.Core.PerceptionAutomationCoreContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Perception.Automation.Core.PerceptionAutomationCoreContract\1.0.0.0\Windows.Perception.Automation.Core.PerceptionAutomationCoreContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Security.EnterpriseData.EnterpriseDataContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Security.EnterpriseData.EnterpriseDataContract\3.0.0.0\Windows.Security.EnterpriseData.EnterpriseDataContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Security.ExchangeActiveSyncProvisioning.EasContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Security.ExchangeActiveSyncProvisioning.EasContract\1.0.0.0\Windows.Security.ExchangeActiveSyncProvisioning.EasContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.Maps.GuidanceContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Services.Maps.GuidanceContract\2.0.0.0\Windows.Services.Maps.GuidanceContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Services.Maps.LocalSearchContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Services.Maps.LocalSearchContract\3.0.0.0\Windows.Services.Maps.LocalSearchContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.SystemManufacturers.SystemManufacturersContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.System.Profile.SystemManufacturers.SystemManufacturersContract\1.0.0.0\Windows.System.Profile.SystemManufacturers.SystemManufacturersContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.Profile.ProfileRetailInfoContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.System.Profile.ProfileRetailInfoContract\1.0.0.0\Windows.System.Profile.ProfileRetailInfoContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.UserProfile.UserProfileContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.System.UserProfile.UserProfileContract\1.0.0.0\Windows.System.UserProfile.UserProfileContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.System.UserProfile.UserProfileLockScreenContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.System.UserProfile.UserProfileLockScreenContract\1.0.0.0\Windows.System.UserProfile.UserProfileLockScreenContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.ApplicationSettings.ApplicationsSettingsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.UI.ApplicationSettings.ApplicationsSettingsContract\1.0.0.0\Windows.UI.ApplicationSettings.ApplicationsSettingsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Core.AnimationMetrics.AnimationMetricsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.UI.Core.AnimationMetrics.AnimationMetricsContract\1.0.0.0\Windows.UI.Core.AnimationMetrics.AnimationMetricsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Core.CoreWindowDialogsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.UI.Core.CoreWindowDialogsContract\1.0.0.0\Windows.UI.Core.CoreWindowDialogsContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.UI.Xaml.Hosting.HostingContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.UI.Xaml.Hosting.HostingContract\1.0.0.0\Windows.UI.Xaml.Hosting.HostingContract.winmd</HintPath>
+    </Reference>
+    <Reference Include="Windows.Web.Http.Diagnostics.HttpDiagnosticsContract">
+      <HintPath>$(MSBuildProgramFiles32)\Windows Kits\10\References\Windows.Web.Http.Diagnostics.HttpDiagnosticsContract\2.0.0.0\Windows.Web.Http.Diagnostics.HttpDiagnosticsContract.winmd</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
+
