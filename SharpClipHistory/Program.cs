@@ -125,16 +125,19 @@ Options:
                 keepass = opts.keepassBypass;
             }
 
+            RegistryKey rk = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Clipboard", true);
+
+            if (rk == null)
+            {
+                Console.WriteLine("[!] Clipboard history feature not available on target! Target needs to be at least Win10 Build 1809.\n[!] Exiting...\n");
+                System.Environment.Exit(0);
+            }
+
             // Check if Clipboard history is available
             string keyName = @"HKEY_CURRENT_USER\Software\Microsoft\Clipboard";
             string keyValue = "EnableClipboardHistory";
             var regVal = Registry.GetValue(keyName, keyValue, null);
-            if (regVal.Equals(null))
-            {
-                Console.WriteLine("\n[!] Clipboard history feature is not available on target.\n[!] Exiting...\n");
-                System.Environment.Exit(0);
-            }
-            else if (regVal.Equals(0))
+            if (regVal == null || regVal.Equals(0))
             {
                 if (enableHistory)
                 {
@@ -142,7 +145,6 @@ Options:
                     Console.WriteLine("[+] Turning on clipboard history feature...");
                     try
                     {
-                        RegistryKey rk = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Clipboard", true);
                         rk.SetValue("EnableClipboardHistory", "1", RegistryValueKind.DWord);
                     }
                     catch (Exception ex)
@@ -156,7 +158,9 @@ Options:
                     Console.WriteLine("\n[-] Clipboard history feature is available on the target but must be enabled.\n[-] Use --enableHistory to enable the feature.\n[!] Exiting...\n");
                     System.Environment.Exit(0);
                 }
+
             }
+
             else if (regVal.Equals(1))
             {
                 Console.WriteLine("\n[+] Clipboard history feature is enabled!");
