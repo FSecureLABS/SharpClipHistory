@@ -7,6 +7,9 @@ Building the project should be simple, just clone and hit Build in Visual Studio
 * C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.UniversalApiContract\7.0.0.0\Windows.Foundation.UniversalApiContract.winmd
 * C:\Program Files (x86)\Windows Kits\10\References\10.0.17763.0\Windows.Foundation.FoundationContract\3.0.0.0\Windows.Foundation.FoundationContract.winmd
 
+The UWPDesktop package must also be installed to handle other UWP dependencies. 
+CommandLineParser and Costura.Fody are also required.
+
 A pre-built executable can also be found [here](https://github.com/mwrlabs/SharpClipHistory/releases).
 
 # Usage
@@ -37,3 +40,6 @@ beacon> execute-assembly /root/SharpClipHistory.exe
 4/25/2019 2:27:11 PM admin
 4/25/2019 2:27:06 PM Sup3rS3cur3Passw0rd123!
 ```
+
+# Author
+This tool was developed by [@pkb1s](https://twitter.com/pkb1s).
